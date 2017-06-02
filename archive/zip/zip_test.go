@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cihub/seelog/archive/zip"
-	"github.com/cihub/seelog/io/iotest"
+	"github.com/gy-games-libs/seelog/archive/zip"
+	"github.com/gy-games-libs/seelog/io/iotest"
 )
 
 var zipTests = map[string]struct{ want map[string][]byte }{

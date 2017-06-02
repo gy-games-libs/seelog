@@ -6,11 +6,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cihub/seelog/archive"
-	"github.com/cihub/seelog/archive/gzip"
-	"github.com/cihub/seelog/archive/tar"
-	"github.com/cihub/seelog/archive/zip"
-	"github.com/cihub/seelog/io/iotest"
+	"github.com/gy-games-libs/seelog/archive"
+	"github.com/gy-games-libs/seelog/archive/gzip"
+	"github.com/gy-games-libs/seelog/archive/tar"
+	"github.com/gy-games-libs/seelog/archive/zip"
+	"github.com/gy-games-libs/seelog/io/iotest"
 )
 
 const (
